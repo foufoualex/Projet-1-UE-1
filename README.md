@@ -14,4 +14,10 @@ pour avoir le pouls.Ce module doit envoyer sur le port série deux valeurs (au f
 
 - Module 2
 
-La principale difficulté de ce module est que nous ne savons pas s’il fonctionne:le prototype sur lequel travaillaitl’ingénieur a disparu égalementainsi que le rapport des tests. Les pinces comportent 2 trous en haut et 2 trous en bas. Nous ne savons pas l’endroit exacte où il faudra mettre l’émetteur et le récepteur. 
+La principale difficulté de ce module est que nous ne savons pas s’il fonctionne:le prototype sur lequel travaillaitl’ingénieur a disparu également ainsi que le rapport des tests. Les pinces comportent 2 trous en haut et 2 trous en bas.
+
+La  deuxième  partie de  ce  module  est  la  programmation  Arduino  qui  détecte,mesure et calculele pouls à partir des informations envoyées par le récepteur IR.  Le code devra être organisé en deux fichiers: 
+
+main.c (qui contient le loopet le setup) 
+
+cardio.c (et .h) qui contient les fonctions propres à la récolte des informations et aux calculspour avoir le pouls.

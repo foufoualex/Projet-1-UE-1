@@ -21,3 +21,13 @@ La  deuxième  partie de  ce  module  est  la  programmation  Arduino  qui  dét
 main.c (qui contient le loopet le setup) 
 
 cardio.c (et .h) qui contient les fonctions propres à la récolte des informations et aux calculspour avoir le pouls.
+
+- Module 3
+
+module plutot pas mal guider
+Récuperation des valeurs des pouls et enregistrement dans un fichier csv
+
+- module 4
+
+Lecture et traitement de données
+Ce module sera intégralement réalisé en Langage C (pas C Arduino). La mission de ce module estde charger en mémoire les informations du fichier csv générées par le module précédent et de traiter les données pour afficher certaines informations à partir de données brutes.

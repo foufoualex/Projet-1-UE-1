@@ -1,0 +1,28 @@
+// Programme en .ino
+
+
+unsigned long time;
+int bat = 0;
+
+
+void setup() {
+pinMode(A0,INPUT);
+  Serial.begin(9600);
+
+  Serial.println("Veuillez patienter");
+
+  time = millis();
+
+  while((millis()-time)<1000){
+    analogRead(0);
+  }
+
+  time = millis();
+  
+  while((millis()-time)< 10000){
+    Serial.println(analogRead(0));
+    if (analogRead(0) > 720){
+      if(analogRead(0) < 720){
+        bat = bat + 1; 
+      } 
+    } 
